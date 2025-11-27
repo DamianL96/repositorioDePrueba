@@ -1,0 +1,203 @@
+* {
+    font-family: "Oswald", sans-serif;
+}
+
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit:contain;
+}
+
+.contenedor-imagen{
+    width: 100px;
+}
+
+
+
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fondo-rojo{
+    background-color: red;
+}
+
+
+/*Utilidades*/
+.circulo {
+    border-radius: 50%;
+}
+
+.fuente-gigante{
+    font-size: 128px;
+}
+
+.margen-0{
+    margin: 0;
+}
+
+.padding-v-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+/*Color texto*/
+.color-blue {
+    color: #132c40;
+}
+
+.color-white {
+    color: aliceblue;
+}
+
+/*Color fondo*/
+.fondo-azul {
+    background-color: #434C7A;
+}
+
+.fondo-blanco{
+    background-color: white;
+}
+
+/**Encabezado*/
+.encabezado {
+    height: 100vh;
+    background-color: #6964e0;
+}
+
+/*Seccion servicios*/
+.seccion-servicios {
+    height: 100vh;
+    margin-top: 88px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+
+.tarjeta {
+    width: 20vw;
+    height: 55vh;
+    background-color: aliceblue;
+}
+
+.contenedor-imagen-servicio {
+    width: 100%;
+    height: 120px;
+    background-color: aliceblue;
+}
+
+.tarjeta-texto{
+    padding: 10px;
+}
+
+.tarjeta-titulo{
+    padding-top: 40px;
+}
+
+/*Seccion imagen*/
+.imagen-grande{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+
+/*Seccion texto*/
+.seccion-texto {
+    margin-top: 10vh;   
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.opciones-interesantes {
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+
+
+/*Seccion prestigio*/
+.seccion-prestigio {
+    height: 100vh;
+}
+
+.contenedor-flexible {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20vh;
+}
+
+.tarjeta-icono {
+    width: 30vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.icono {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    padding: 4px 0;
+    width: 100%;
+}
+
+.pegajosa{
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    display: inline-block;
+    height: 56px;
+}
+
+.fuente-oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.contenedor-flexible2{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
